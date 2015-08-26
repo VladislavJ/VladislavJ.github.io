@@ -1,5 +1,6 @@
 body{
 	background:url(../img/pattern.png);
+	min-width: 940px;
 }
 .main-header{
 	padding-top: 60px;
@@ -8,8 +9,7 @@ body{
 	background-color: #fff;
 }
 .container{
-	min-width: 960px;
-	max-width: 1165px;
+	width: 1165px;
 	margin: auto;
 }
 .header{
@@ -114,11 +114,12 @@ transform: none;
 	padding-right: 15px;
 }
 .content{
-
 background:url(../img/back_photo.png);
 background-repeat: no-repeat;
 background-size: 100% 76%;
 padding-top: 65px;
+padding-right: 5px;
+padding-left: 5px;
 }
 .main_2{
 	clear: both;
