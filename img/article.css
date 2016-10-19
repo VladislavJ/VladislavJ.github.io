@@ -1,0 +1,67 @@
+body {
+	background-color: white;
+	margin-bottom: 0px;
+}
+html{
+   	overflow-x:hidden;
+}
+#photo-div{
+	text-align: center; 
+  	margin-left: -10px;
+  	margin-right: -10px;
+}
+#amPhoto{
+	width: 100vw;
+}
+#content{
+	width: 800px;
+	margin: auto;
+}
+.article-text{
+	display: inline-block;
+	width: 705px;
+	font-family: PFSquareSansPro;	
+	vertical-align: top;
+}
+.go-out-button{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+.separate-line{
+	height: 1px;
+	background-color: #7a8696;
+	margin: 46px 0px 27px 0px;
+}
+#footer{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 15pt;
+}
+#am-text{
+	position: absolute;
+    top: 20%;
+    left: 24%;
+    width: 225px;
+    font-size: 15pt;
+}
+#am-text p{
+	font-family: PFSquareSansPro;
+	color: white;
+}
+@font-face {
+    font-family: PFSquareSansPro;
+    src: url(PF_Square_Sans_Pro/PFSquareSansPro-Light.ttf);
+}
+.footer{
+	font-size: 20pt;
+	font-family: PFSquareSansProLight;
+	text-align: center;
+	margin-bottom: -24px;
+}
+.footer-line{
+	height: 6px;
+	background-color: #798595;
+	flex: 0 0 auto;
+	margin: 0px -10px 0px -10px;
+}

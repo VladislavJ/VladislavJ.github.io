@@ -1,0 +1,59 @@
+.i-button {
+    background: url(i-button.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+   }
+#menu{
+background:white;
+height:50px;
+text-align: center;
+background-color: white;
+margin-bottom: 1px;
+}
+#menu-div{
+	display: inline-block;
+}
+
+.i-button:hover {
+    background: url(i-button-hover.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+.i-button-pressed{
+	background: url(i-button-pressed.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+}
+.am-button {
+    background: url(am-button.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+   }
+.am-button:hover {
+    background: url(am-button-hover.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+.am-button-pressed{
+	background: url(am-button-pressed.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+}
+ .ok-button {
+    background: url(ok-button.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+   }
+.ok-button:hover {
+    background: url(ok-button-hover.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+.ok-button-pressed{
+	background: url(ok-button-pressed.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    height: 50px; /*  Высота рисунка */
+    width: 222px;
+}

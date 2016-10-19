@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "gtBlack";
+    src: url("../font/GothamPro-Black.eot");
+    src: url("../font/GothamPro-Black.eot?#iefix")format("embedded-opentype"),
+    url("../font/GothamPro-Black.woff") format("woff"),
+    url("../font/GothamPro-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "gtLight";
+    src: url("../font/GothamPro-Light.eot");
+    src: url("../font/GothamPro-Light.eot?#iefix")format("embedded-opentype"),
+    url("../font/GothamPro-Light.woff") format("woff"),
+    url("../font/GothamPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "gtMedium";
+    src: url("../font/GothamPro-Medium.eot");
+    src: url("../font/GothamPro-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../font/GothamPro-Medium.woff") format("woff"),
+    url("../font/GothamPro-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "gtReg";
+    src: url("../font/GothamPro-Reg.eot");
+    src: url("../font/GothamPro-Reg.eot?#iefix")format("embedded-opentype"),
+    url("../font/GothamPro-Reg.woff") format("woff"),
+    url("../font/GothamPro-Reg.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

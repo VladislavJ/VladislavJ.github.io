@@ -1,0 +1,53 @@
+@media only screen and (max-width : 360px){
+	.landing{
+		padding: 20px 0;
+		height: 100vh;
+		&__title{
+			font-size: 30px;
+			padding-top: 20px;
+		}
+		&__text, &__question{
+			font-size: 18px;
+		}
+		&__paragraph{
+			font-size: 12px;
+		}
+		&__button{
+			font-size: 16px;
+		}
+		&__callback{
+			margin-top: 40px;
+		}
+		&__tell{
+			margin-top: 60px;
+		}
+		&__social{
+			padding-bottom: 52px;
+			margin: 0;
+		}
+	}
+}
+@media only screen and (max-width : 320px){
+	.landing{
+		padding: 20px 0;
+		margin-bottom: 10px;
+		&__callback{
+			margin: 10px auto;
+		}
+		&__item{
+			margin-top: 10px;
+		}
+		&__input, &__button{
+			margin-top: 10px;
+		}
+		&__tell{
+			margin: 15px 0;
+		}
+		&__social{
+			margin: 0;
+		}
+		&__title{
+			padding-top: 20px;
+		}
+	}
+}

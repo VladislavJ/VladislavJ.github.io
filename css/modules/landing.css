@@ -1,0 +1,127 @@
+.landing{
+	background: url(../img/bg3.jpg) no-repeat center center fixed;;
+	background-size: cover;
+	padding: 60px 0;
+	width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y:auto;
+	&__title, &__text, &__question, &__tell{
+		color: #fff;
+		text-align: center;
+	}
+	&__question, &__paragraph{
+		margin: 0;
+	}
+	&__input, &__button{
+		width: 100%;
+		margin-top: 15px;
+		height: 40px;
+	}
+	&__vk, &__facebook, &__plus{
+		width: 20px;
+		height: 20px;
+		margin: 3px 0 0 3px;
+	}
+	&__title{
+		margin: 20px 0 10px 0;
+		font: 46px gtBlack;
+	}
+	&__text{
+		font: 38px gtLight;
+		margin: 0;
+	}
+	&__callback{
+		max-width: 500px;
+		text-align: justify;
+		margin: 80px auto 20px auto;
+	}
+	&__question{
+		font: 24px gtLight;
+	}
+	&__item{
+		margin-top: 20px;
+	}
+	&__paragraph{
+		font: 18px gtLight;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	&__social{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+	&__form{
+		max-width: 320px;
+		margin: auto;
+	}
+	&__input{
+		font: 16px gtReg;
+		color: #a9a9a9;
+		border-radius: 0;
+		border: 1px solid #a9a9a9;
+		background: #fff;
+		padding-left: 15px;
+	}
+	&__button{
+		background: #2496de;
+		border: 0;
+		font: 18px gtMedium;
+		color: #fff;
+		&:hover{
+			background: #009dff;
+		}
+	}
+	&__tell{
+		font: 18px gtLight;
+		margin-top: 120px;
+		margin-bottom: 10px;
+	}
+	&__vk{
+		background-image: url(../img/social.png);
+		background-position: -84px 0;
+	}
+	&__facebook{
+		background-image: url(../img/social.png);
+		background-position: 0 0;
+	}
+	&__plus{
+		background-image: url(../img/plus.png);
+		background-position: 0 0;
+	}
+	&__visit{
+		margin: 3px 0 0 8px;
+		position: relative;
+		padding: 2px 4px;
+		border-radius: 22px;
+		background: #eaeaeb;
+		box-shadow: 0 0 3px rgba(0,0,0,.3);
+		color: #707070;
+		white-space: nowrap;
+		font: 11px Tahoma, Geneva, sans-serif;
+		&::after{
+			position: absolute;
+			top: 5px;
+			left: -6px;
+			z-index: 0;
+			display: block;
+			width: 0;
+			border-width: 4px 8px 4px 0;
+			border-style: solid;
+			border-color: transparent #eaeaeb;
+			content: '';
+		}
+	}
+	&__bg{
+		background-color: rgba(0,0,0,0.7);
+	}
+}

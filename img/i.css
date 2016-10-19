@@ -1,0 +1,18 @@
+#content{
+	text-align: center; 
+  	background: #798595;
+  	height: 100vh;
+  	margin-left: -10px;
+  	margin-right: -10px;
+}
+
+#i-text{
+	 position: absolute; 
+	 top: 20%; 
+	 left: 25%; 
+	 width: 300px;
+	 color: white;
+}
+#i-text p{
+	font-family: PFSquareSansProLight;
+}

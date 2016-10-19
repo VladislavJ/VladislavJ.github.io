@@ -1,0 +1,57 @@
+/*@font-face {
+    font-family: PFSquareSansProMedium;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-medium);
+}
+@font-face {
+    font-family: PFSquareSansProLight;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-light);
+}
+@font-face {
+    font-family: PFSquareSansProThin;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-thin);
+}*/
+@font-face {
+    font-family: "pf-200";
+    src: url("../font/PFSquareSansPro-Light.eot");
+    src: url("../font/PFSquareSansPro-Light.eot")format("embedded-opentype"),
+    url("../font/PFSquareSansPro-Light.woff") format("woff"),
+    url("../font/PFSquareSansPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-300";
+    src: url("../font/PFSquareSansPro-Regular.eot");
+    src: url("../font/PFSquareSansPro-Regular.eot")format("embedded-opentype"),
+    url("../font/PFSquareSansPro-Regular.woff") format("woff"),
+    url("../font/PFSquareSansPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-700";
+    src: url("../font/PFSquareSansPro-Bold.eot");
+    src: url("../font/PFSquareSansPro-Bold.eot")format("embedded-opentype"),
+    url("../font/PFSquareSansPro-Bold.woff") format("woff"),
+    url("../font/PFSquareSansPro-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-100";
+    src: url("../font/PFSquareSansPro-Thin.eot");
+    src: url("../font/PFSquareSansPro-Thin.eot")format("embedded-opentype"),
+    url("../font/PFSquareSansPro-Thin.woff") format("woff"),
+    url("../font/PFSquareSansPro-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-500";
+    src: url("../font/PFSquareSansPro-Medium.eot");
+    src: url("../font/PFSquareSansPro-Medium.eot")format("embedded-opentype"),
+    url("../font/PFSquareSansPro-Medium.woff") format("woff"),
+    url("../font/PFSquareSansPro-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

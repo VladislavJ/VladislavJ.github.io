@@ -1,0 +1,12 @@
+@font-face {
+    font-family: PFSquareSansProMedium;
+    src: url(PF_Square_Sans_Pro/PFSquareSansPro-Medium.ttf);
+}
+@font-face {
+    font-family: PFSquareSansProLight;
+    src: url(PF_Square_Sans_Pro/PFSquareSansPro-Light.ttf);
+}
+@font-face {
+    font-family: PFSquareSansProThin;
+    src: url(PF_Square_Sans_Pro/PFSquareSansPro-Thin.ttf);
+}
